@@ -1,0 +1,135 @@
+
+
+body {
+
+    background-color: rgb(255, 253, 226);
+}
+
+/* Logo and Header*/
+
+img.logo {
+    height: 10vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Link list*/
+
+.linklist {
+    border: 0.2vw solid rgb(241, 221, 229);
+    margin-top: 1vw;
+    background-color: rgb(241, 221, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 1.75em;
+}
+
+ul {
+    list-style-type:none;
+}
+
+/* unvisited link */
+a:link {
+    color: #CA6283;
+}
+
+/* visited link */
+a:visited {
+    color: #7C619B;
+}
+
+/* hover link */
+a:hover {
+    color: rgb(197, 176, 221);
+}
+
+.banner {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CA6283;
+    border: 0.2vw solid rgb(241, 221, 229);
+    background-color: 	 rgb(241, 221, 229);
+    margin: 0.4vw auto;
+    text-align: center;
+    padding: 0.5vw;
+    box-sizing: border-box;
+    height: 10vh;
+    font-size: 1.75em;
+}
+
+.sidebar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CA6283;
+    border: 0.2vw solid  rgb(241, 221, 229);
+    background-color: 	 rgb(241, 221, 229);
+    text-align: center;
+    width: 15vw;
+    height: 50vw; 
+    box-sizing: border-box;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding: 0.5vw;
+    float: left;
+    font-size: 1.5em;
+
+}
+
+
+.article1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CA6283;
+    border: 0.2vw solid  rgb(241, 221, 229);
+    background-color: 	 rgb(241, 221, 229);
+    text-align: center;
+    width: 82.1vw;
+    height: 50vw; 
+    box-sizing: border-box;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    float: left;
+    margin-left: 0.4vw;
+    font-size: 1.75em;
+    padding: 0.2vw;
+    padding-top: 0px;
+
+}
+
+.clear { clear: both; }
+
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CA6283;
+    border: 0.2vw solid  rgb(241, 221, 229);
+    background-color: 	 rgb(241, 221, 229);
+    text-align: center; 
+    box-sizing: border-box;
+    margin-top: 0.5vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding: 0.5vw;
+    font-size: 1.75em;
+    height: 10vw;
+    float: none;
+    display: block;
+    clear: both;
+}
+
+@media screen and (orientation: portrait) {
+    img.logo {
+        margin-top: 1.2vh;
+        height: 20vh;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .linklist li {
+        display:inline-block;
+        font-size: 3em;
+        height: 8vh;
+        margin-top: 1.2vh;
+        padding: 3vw;
+    }
+  }

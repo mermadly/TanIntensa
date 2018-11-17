@@ -1,33 +1,36 @@
-.header {
-    width: 120px;
+
+.header img {
+    height: 120px;
+    max-height: 120px;
+    margin-bottom: 15px;
     display: block;
     margin-left:auto;
     margin-right: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #CA6283;
-    font-size: 20px;
-    font-weight: bold;
-    
-}
-.header img {
-    height: 120px;
 }
 
 body {
     background-color: #F5E8EF;
+    top: 0px;
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
 }
 
 .linklist {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #CA6283;
-    border: 1px solid #F0CFA5;
-    background-color: 	#F0CFA5;
+    border: 1px solid  rgb(243, 204, 225);
+    background-color: rgb(243, 204, 225);
     margin: auto;
-    width: 10%;
-    border: 3px solid;
+    width: 30%;
     padding: 10px;
     text-align: center;
+    list-style-position: inside;
 
+}
+
+ul {
+    list-style-type:none;
 }
 
 /* unvisited link */
@@ -40,30 +43,36 @@ a:visited {
     color: #7C619B;
 }
 
+/* hover link */
+a:hover {
+    color: rgb(197, 176, 221);
+}
+
 .banner {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #CA6283;
-    border: 1px solid #F0CFA5;
-    background-color: 	#F0CFA5;
+    border: 1px solid  rgb(243, 204, 225);
+    background-color: 	 rgb(243, 204, 225);
     margin: 10px auto;
     text-align: center;
     padding: 5px;
     width: 100%;
     box-sizing: border-box;
-
+    height: 80px;
 }
 
 .sidebar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #CA6283;
-    border: 1px solid #F0CFA5;
-    background-color: 	#F0CFA5;
-    margin: 10px auto;
-    text-align: center;
-    width: 10%;
+    border: 1px solid  rgb(243, 204, 225);
+    background-color: 	 rgb(243, 204, 225);
+    text-align: left;
+    width: 9%;
     height: 500px; 
-    padding: 5px;
     box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 5px;
     display: inline-block;
 
 }
@@ -71,27 +80,32 @@ a:visited {
 .article1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #CA6283;
-    border: 1px solid #F0CFA5;
-    background-color: 	#F0CFA5;
-    margin: 10px auto;
+    border: 1px solid rgb(243, 204, 225);
+    background-color: 	 rgb(243, 204, 225);
     text-align: center;
-    padding: 5px;
-    width: 85%;
     box-sizing: border-box;
+    width: 90.25%;
+    margin-left: 5px;
+    margin-right: 0px;
     height: 500px; 
     display: inline-block;
+
 }
 
 .footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #CA6283;
-    border: 1px solid #F0CFA5;
-    background-color: 	#F0CFA5;
-    margin: 10px;
+    border: 1px solid  rgb(243, 204, 225);
+    background-color: 	 rgb(243, 204, 225);
     margin-top: 5px;
     text-align: center;
     padding: 5px;
-    width: 100%;
     box-sizing: border-box;
+    display: block;
+
+}
+
+.clear {
+clear: both;
 
 }
