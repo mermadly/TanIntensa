@@ -56,6 +56,7 @@ a:hover {
     box-sizing: border-box;
     height: 10vh;
     font-size: 1.75em;
+   /* background-image: url("banner.jpg");*/
 }
 
 .sidebar {
@@ -75,6 +76,10 @@ a:hover {
 
 }
 
+.container {
+    display: flex;
+    width: 100vw;
+}
 
 .article1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -82,12 +87,11 @@ a:hover {
     border: 0.2vw solid  rgb(241, 221, 229);
     background-color: 	 rgb(241, 221, 229);
     text-align: center;
-    width: 83.1vw;
+    width: 82.1vw;
     height: 50vw; 
     box-sizing: border-box;
     margin-left: 0vw;
     margin-right: 0vw;
-    float: left;
     margin-left: 0.4vw;
     font-size: 1em;
     padding: 0.2vw;
@@ -110,21 +114,29 @@ a:hover {
     padding: 0.5vw;
     font-size: 1.25em;
     height: 8vw;
-    float: none;
     display: block;
     clear: both;
 }
 
 /* Responsive */
 
-@media screen and (max-width: 1065px) and (min-width: 818px) {
+@media screen and (max-width: 1065px) and (min-width: 818px) {}
 
-    .article1 {
+/*    .article1 {
 
         width: 82.9vw;
     }
 }
 
+
+@media screen and (min-width: 1300px) {
+
+    .article1 {
+
+        width: 83.3vw;
+    }
+}*/
+/*
 @media screen and (orientation: portrait) {
     img.logo {
         margin-top: 1.2vh;
@@ -139,36 +151,82 @@ a:hover {
         display: none;
     }
 
-    /*
+    
     .linklist {
         display: none;
     }
-    */
+    
     .linklist li {
         display:inline-block;
-        font-size: 1.2em;
+        font-size: 0.1em;
         height: 4vh;
         margin-top: 1.2vh;
         padding: 0.5vh;
     }
 
-    .banner {/*
+    .banner {
         height: 7vh;
         width: 98vw;
-        margin-top:0.8vh;*/
+        margin-top:0.8vh;
         display:none;
     }
 
     .article1 {
-        height: 75vh;
+        min-height: 75vh;
         width: 100vw;
         margin: 0px;
         margin-top: 0.3vh;
     }
 
     .footer {
-        height: 8vh;
-    }
+        height: 10vh;
+    }*/
 
+    @media only screen and (max-device-width: 550px) and (min-device-width: 300px) {
+        img.logo {
+            margin-top: 1.2vh;
+            height: 15vh;
+        }
+    
+        body {
+            margin: 0px;
+        }
+    
+        .sidebar {
+            display: none;
+        }
+
+        ul {background-color: black;}
+    
+        /*
+        .linklist {
+            display: none;
+        }
+        */
+        .linklist li {
+            display:inline-block;
+            font-size: 0.1em;
+            height: 4vh;
+            margin-top: 1.2vh;
+            padding: 0.5vh;
+        }
+    
+        .banner {/*
+            height: 7vh;
+            width: 98vw;
+            margin-top:0.8vh;*/
+            display:none;
+        }
+    
+        .article1 {
+            min-height: 75vh;
+            width: 100vw;
+            margin: 0px;
+            margin-top: 0.3vh;
+        }
+    
+        .footer {
+            height: 10vh;
+        }
 
   }
