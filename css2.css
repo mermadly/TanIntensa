@@ -23,7 +23,7 @@ img.logo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     list-style-position: inside;
-    font-size: 1.75em;
+    font-size: 1.25em;
 }
 
 ul {
@@ -71,7 +71,7 @@ a:hover {
     margin-right: 0vw;
     padding: 0.5vw;
     float: left;
-    font-size: 1.5em;
+    font-size: 1em;
 
 }
 
@@ -82,14 +82,14 @@ a:hover {
     border: 0.2vw solid  rgb(241, 221, 229);
     background-color: 	 rgb(241, 221, 229);
     text-align: center;
-    width: 82.1vw;
+    width: 83.1vw;
     height: 50vw; 
     box-sizing: border-box;
     margin-left: 0vw;
     margin-right: 0vw;
     float: left;
     margin-left: 0.4vw;
-    font-size: 1.75em;
+    font-size: 1em;
     padding: 0.2vw;
     padding-top: 0px;
 
@@ -108,28 +108,67 @@ a:hover {
     margin-left: 0vw;
     margin-right: 0vw;
     padding: 0.5vw;
-    font-size: 1.75em;
-    height: 10vw;
+    font-size: 1.25em;
+    height: 8vw;
     float: none;
     display: block;
     clear: both;
 }
 
+/* Responsive */
+
+@media screen and (max-width: 1065px) and (min-width: 818px) {
+
+    .article1 {
+
+        width: 82.9vw;
+    }
+}
+
 @media screen and (orientation: portrait) {
     img.logo {
         margin-top: 1.2vh;
-        height: 20vh;
+        height: 15vh;
+    }
+
+    body {
+        margin: 0px;
     }
 
     .sidebar {
         display: none;
     }
 
+    /*
+    .linklist {
+        display: none;
+    }
+    */
     .linklist li {
         display:inline-block;
-        font-size: 3em;
-        height: 8vh;
+        font-size: 1.2em;
+        height: 4vh;
         margin-top: 1.2vh;
-        padding: 3vw;
+        padding: 0.5vh;
     }
+
+    .banner {/*
+        height: 7vh;
+        width: 98vw;
+        margin-top:0.8vh;*/
+        display:none;
+    }
+
+    .article1 {
+        height: 75vh;
+        width: 100vw;
+        margin: 0px;
+        margin-top: 0.3vh;
+    }
+
+    .footer {
+        height: 8vh;
+    }
+
+
   }
